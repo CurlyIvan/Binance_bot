@@ -1,0 +1,613 @@
+2025-05-16 18:58:38,943 | INFO     | ML retrain (LightGBM)...
+2025-05-16 19:00:46,966 | INFO     | ML retrain (LightGBM)...
+2025-05-16 19:03:40,054 | INFO     | Starting ML retrain ...
+2025-05-16 19:03:43,049 | INFO     | Model saved - AUC 0.998 (using LightGBM)
+2025-05-16 19:10:05,135 | INFO     | Starting ML retrain ...
+2025-05-16 19:10:07,998 | INFO     | Model saved - AUC 0.998 (using LightGBM)
+2025-05-16 19:13:07,114 | INFO     | Starting ML retrain ...
+2025-05-16 19:13:11,572 | INFO     | Model saved - AUC 0.704 (using LightGBM)
+2025-05-16 19:51:38,429 | INFO     | Starting ML retrain ...
+2025-05-16 19:54:41,611 | INFO     | Starting ML retrain ...
+2025-05-16 19:54:45,334 | INFO     | Model saved - AUC 0.704 (using LightGBM)
+2025-05-16 19:58:14,742 | INFO     | Starting ML retrain ...
+2025-05-16 19:58:18,526 | INFO     | Model saved - AUC 0.723 (using LightGBM)
+2025-05-16 19:59:22,468 | INFO     | PAPER mode active
+2025-05-16 19:59:22,476 | INFO     | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-16 19:59:22,476 | INFO     | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-16 19:59:22,477 | INFO     | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-16 19:59:22,477 | INFO     | Added job "daily_rebalance" to job store "default"
+2025-05-16 19:59:22,477 | INFO     | Added job "monitor_breakouts" to job store "default"
+2025-05-16 19:59:22,477 | INFO     | Added job "retrain_model" to job store "default"
+2025-05-16 19:59:22,477 | INFO     | Scheduler started
+2025-05-16 19:59:22,478 | INFO     | Scheduler started - bot running
+2025-05-16 20:14:22,498 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 18:14:22 UTC)" (scheduled at 2025-05-16 18:14:22.476883+00:00)
+2025-05-16 20:14:22,501 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 18:29:22 UTC)" executed successfully
+2025-05-16 20:29:22,499 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 18:44:22 UTC)" (scheduled at 2025-05-16 18:29:22.476883+00:00)
+2025-05-16 20:29:22,504 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 18:44:22 UTC)" executed successfully
+2025-05-16 20:44:22,479 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 18:59:22 UTC)" (scheduled at 2025-05-16 18:44:22.476883+00:00)
+2025-05-16 20:44:22,483 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 18:59:22 UTC)" executed successfully
+2025-05-16 20:59:22,482 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 19:14:22 UTC)" (scheduled at 2025-05-16 18:59:22.476883+00:00)
+2025-05-16 20:59:22,487 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 19:14:22 UTC)" executed successfully
+2025-05-16 21:14:22,485 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 19:29:22 UTC)" (scheduled at 2025-05-16 19:14:22.476883+00:00)
+2025-05-16 21:14:22,488 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 19:29:22 UTC)" executed successfully
+2025-05-16 21:29:22,487 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 19:44:22 UTC)" (scheduled at 2025-05-16 19:29:22.476883+00:00)
+2025-05-16 21:29:22,490 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 19:44:22 UTC)" executed successfully
+2025-05-16 21:44:22,486 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 19:59:22 UTC)" (scheduled at 2025-05-16 19:44:22.476883+00:00)
+2025-05-16 21:44:22,489 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 19:59:22 UTC)" executed successfully
+2025-05-16 21:59:22,482 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 20:14:22 UTC)" (scheduled at 2025-05-16 19:59:22.476883+00:00)
+2025-05-16 21:59:22,486 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 20:14:22 UTC)" executed successfully
+2025-05-16 22:14:22,485 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 20:29:22 UTC)" (scheduled at 2025-05-16 20:14:22.476883+00:00)
+2025-05-16 22:14:22,488 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 20:29:22 UTC)" executed successfully
+2025-05-16 22:29:22,487 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 20:44:22 UTC)" (scheduled at 2025-05-16 20:29:22.476883+00:00)
+2025-05-16 22:29:22,491 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 20:44:22 UTC)" executed successfully
+2025-05-16 22:44:22,502 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 20:59:22 UTC)" (scheduled at 2025-05-16 20:44:22.476883+00:00)
+2025-05-16 22:44:22,506 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 20:59:22 UTC)" executed successfully
+2025-05-16 22:59:22,488 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 21:14:22 UTC)" (scheduled at 2025-05-16 20:59:22.476883+00:00)
+2025-05-16 22:59:22,491 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 21:14:22 UTC)" executed successfully
+2025-05-16 23:14:22,482 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 21:29:22 UTC)" (scheduled at 2025-05-16 21:14:22.476883+00:00)
+2025-05-16 23:14:22,485 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 21:29:22 UTC)" executed successfully
+2025-05-16 23:29:22,532 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 21:44:22 UTC)" (scheduled at 2025-05-16 21:29:22.476883+00:00)
+2025-05-16 23:29:22,537 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 21:44:22 UTC)" executed successfully
+2025-05-16 23:44:22,495 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 21:59:22 UTC)" (scheduled at 2025-05-16 21:44:22.476883+00:00)
+2025-05-16 23:44:22,498 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 21:59:22 UTC)" executed successfully
+2025-05-16 23:59:22,510 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 22:14:22 UTC)" (scheduled at 2025-05-16 21:59:22.476883+00:00)
+2025-05-16 23:59:22,514 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 22:14:22 UTC)" executed successfully
+2025-05-17 00:14:22,501 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 22:29:22 UTC)" (scheduled at 2025-05-16 22:14:22.476883+00:00)
+2025-05-17 00:14:22,504 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 22:29:22 UTC)" executed successfully
+2025-05-17 00:29:22,480 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 22:44:22 UTC)" (scheduled at 2025-05-16 22:29:22.476883+00:00)
+2025-05-17 00:29:22,484 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 22:44:22 UTC)" executed successfully
+2025-05-17 00:44:22,492 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 22:59:22 UTC)" (scheduled at 2025-05-16 22:44:22.476883+00:00)
+2025-05-17 00:44:22,494 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 22:59:22 UTC)" executed successfully
+2025-05-17 00:59:22,480 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 23:14:22 UTC)" (scheduled at 2025-05-16 22:59:22.476883+00:00)
+2025-05-17 00:59:22,483 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 23:14:22 UTC)" executed successfully
+2025-05-17 01:14:22,482 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 23:29:22 UTC)" (scheduled at 2025-05-16 23:14:22.476883+00:00)
+2025-05-17 01:14:22,483 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 23:29:22 UTC)" executed successfully
+2025-05-17 01:29:22,502 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 23:44:22 UTC)" (scheduled at 2025-05-16 23:29:22.476883+00:00)
+2025-05-17 01:29:22,508 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 23:44:22 UTC)" executed successfully
+2025-05-17 01:44:22,486 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 23:59:22 UTC)" (scheduled at 2025-05-16 23:44:22.476883+00:00)
+2025-05-17 01:44:22,489 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-16 23:59:22 UTC)" executed successfully
+2025-05-17 01:59:22,518 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 00:14:22 UTC)" (scheduled at 2025-05-16 23:59:22.476883+00:00)
+2025-05-17 01:59:22,520 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 00:14:22 UTC)" executed successfully
+2025-05-17 02:14:22,486 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 00:29:22 UTC)" (scheduled at 2025-05-17 00:14:22.476883+00:00)
+2025-05-17 02:14:22,488 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 00:29:22 UTC)" executed successfully
+2025-05-17 02:29:22,487 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 00:44:22 UTC)" (scheduled at 2025-05-17 00:29:22.476883+00:00)
+2025-05-17 02:29:22,489 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 00:44:22 UTC)" executed successfully
+2025-05-17 02:44:22,479 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 00:59:22 UTC)" (scheduled at 2025-05-17 00:44:22.476883+00:00)
+2025-05-17 02:44:22,483 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 00:59:22 UTC)" executed successfully
+2025-05-17 02:59:22,480 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 01:14:22 UTC)" (scheduled at 2025-05-17 00:59:22.476883+00:00)
+2025-05-17 02:59:22,483 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 01:14:22 UTC)" executed successfully
+2025-05-17 03:14:22,488 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 01:29:22 UTC)" (scheduled at 2025-05-17 01:14:22.476883+00:00)
+2025-05-17 03:14:22,491 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 01:29:22 UTC)" executed successfully
+2025-05-17 03:29:22,485 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 01:44:22 UTC)" (scheduled at 2025-05-17 01:29:22.476883+00:00)
+2025-05-17 03:29:22,487 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 01:44:22 UTC)" executed successfully
+2025-05-17 03:44:22,528 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 01:59:22 UTC)" (scheduled at 2025-05-17 01:44:22.476883+00:00)
+2025-05-17 03:44:22,531 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 01:59:22 UTC)" executed successfully
+2025-05-17 03:59:22,493 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 02:14:22 UTC)" (scheduled at 2025-05-17 01:59:22.476883+00:00)
+2025-05-17 03:59:22,495 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 02:14:22 UTC)" executed successfully
+2025-05-17 04:00:00,012 | INFO     | Running job "daily_rebalance (trigger: cron[hour='2', minute='0'], next run at: 2025-05-18 02:00:00 UTC)" (scheduled at 2025-05-17 02:00:00+00:00)
+2025-05-17 04:00:00,015 | INFO     | === Daily Rebalance ===
+2025-05-17 04:00:03,256 | INFO     | ML probability = 0.00
+2025-05-17 04:00:03,258 | INFO     | ML red - flatten
+2025-05-17 04:00:03,258 | INFO     | Job "daily_rebalance (trigger: cron[hour='2', minute='0'], next run at: 2025-05-18 02:00:00 UTC)" executed successfully
+2025-05-17 04:14:22,500 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 02:29:22 UTC)" (scheduled at 2025-05-17 02:14:22.476883+00:00)
+2025-05-17 04:14:22,503 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 02:29:22 UTC)" executed successfully
+2025-05-17 04:29:22,481 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 02:44:22 UTC)" (scheduled at 2025-05-17 02:29:22.476883+00:00)
+2025-05-17 04:29:22,483 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 02:44:22 UTC)" executed successfully
+2025-05-17 04:44:22,487 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 02:59:22 UTC)" (scheduled at 2025-05-17 02:44:22.476883+00:00)
+2025-05-17 04:44:22,490 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 02:59:22 UTC)" executed successfully
+2025-05-17 04:59:22,490 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 03:14:22 UTC)" (scheduled at 2025-05-17 02:59:22.476883+00:00)
+2025-05-17 04:59:22,493 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 03:14:22 UTC)" executed successfully
+2025-05-17 05:14:22,478 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 03:29:22 UTC)" (scheduled at 2025-05-17 03:14:22.476883+00:00)
+2025-05-17 05:14:22,481 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 03:29:22 UTC)" executed successfully
+2025-05-17 05:29:22,503 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 03:44:22 UTC)" (scheduled at 2025-05-17 03:29:22.476883+00:00)
+2025-05-17 05:29:22,505 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 03:44:22 UTC)" executed successfully
+2025-05-17 05:44:22,490 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 03:59:22 UTC)" (scheduled at 2025-05-17 03:44:22.476883+00:00)
+2025-05-17 05:44:22,493 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 03:59:22 UTC)" executed successfully
+2025-05-17 05:59:22,501 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 04:14:22 UTC)" (scheduled at 2025-05-17 03:59:22.476883+00:00)
+2025-05-17 05:59:22,503 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 04:14:22 UTC)" executed successfully
+2025-05-17 06:14:22,486 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 04:29:22 UTC)" (scheduled at 2025-05-17 04:14:22.476883+00:00)
+2025-05-17 06:14:22,490 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 04:29:22 UTC)" executed successfully
+2025-05-17 06:29:22,494 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 04:44:22 UTC)" (scheduled at 2025-05-17 04:29:22.476883+00:00)
+2025-05-17 06:29:22,497 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 04:44:22 UTC)" executed successfully
+2025-05-17 06:44:22,494 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 04:59:22 UTC)" (scheduled at 2025-05-17 04:44:22.476883+00:00)
+2025-05-17 06:44:22,496 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 04:59:22 UTC)" executed successfully
+2025-05-17 06:59:22,480 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 05:14:22 UTC)" (scheduled at 2025-05-17 04:59:22.476883+00:00)
+2025-05-17 06:59:22,483 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 05:14:22 UTC)" executed successfully
+2025-05-17 07:14:22,491 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 05:29:22 UTC)" (scheduled at 2025-05-17 05:14:22.476883+00:00)
+2025-05-17 07:14:22,495 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 05:29:22 UTC)" executed successfully
+2025-05-17 07:29:22,486 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 05:44:22 UTC)" (scheduled at 2025-05-17 05:29:22.476883+00:00)
+2025-05-17 07:29:22,489 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 05:44:22 UTC)" executed successfully
+2025-05-17 07:44:22,486 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 05:59:22 UTC)" (scheduled at 2025-05-17 05:44:22.476883+00:00)
+2025-05-17 07:44:22,489 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 05:59:22 UTC)" executed successfully
+2025-05-17 07:59:22,485 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 06:14:22 UTC)" (scheduled at 2025-05-17 05:59:22.476883+00:00)
+2025-05-17 07:59:22,489 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 06:14:22 UTC)" executed successfully
+2025-05-17 08:14:22,482 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 06:29:22 UTC)" (scheduled at 2025-05-17 06:14:22.476883+00:00)
+2025-05-17 08:14:22,485 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 06:29:22 UTC)" executed successfully
+2025-05-17 08:29:22,481 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 06:44:22 UTC)" (scheduled at 2025-05-17 06:29:22.476883+00:00)
+2025-05-17 08:29:22,485 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 06:44:22 UTC)" executed successfully
+2025-05-17 08:44:22,533 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 06:59:22 UTC)" (scheduled at 2025-05-17 06:44:22.476883+00:00)
+2025-05-17 08:44:22,536 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 06:59:22 UTC)" executed successfully
+2025-05-17 08:59:22,492 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 07:14:22 UTC)" (scheduled at 2025-05-17 06:59:22.476883+00:00)
+2025-05-17 08:59:22,494 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 07:14:22 UTC)" executed successfully
+2025-05-17 09:14:22,525 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 07:29:22 UTC)" (scheduled at 2025-05-17 07:14:22.476883+00:00)
+2025-05-17 09:14:22,528 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 07:29:22 UTC)" executed successfully
+2025-05-17 09:29:22,484 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 07:44:22 UTC)" (scheduled at 2025-05-17 07:29:22.476883+00:00)
+2025-05-17 09:29:22,488 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 07:44:22 UTC)" executed successfully
+2025-05-17 09:44:22,483 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 07:59:22 UTC)" (scheduled at 2025-05-17 07:44:22.476883+00:00)
+2025-05-17 09:44:22,487 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 07:59:22 UTC)" executed successfully
+2025-05-17 09:59:22,537 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 08:14:22 UTC)" (scheduled at 2025-05-17 07:59:22.476883+00:00)
+2025-05-17 09:59:22,540 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 08:14:22 UTC)" executed successfully
+2025-05-17 10:14:22,484 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 08:29:22 UTC)" (scheduled at 2025-05-17 08:14:22.476883+00:00)
+2025-05-17 10:14:22,487 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 08:29:22 UTC)" executed successfully
+2025-05-17 10:29:22,502 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 08:44:22 UTC)" (scheduled at 2025-05-17 08:29:22.476883+00:00)
+2025-05-17 10:29:22,504 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 08:44:22 UTC)" executed successfully
+2025-05-17 10:44:22,505 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 08:59:22 UTC)" (scheduled at 2025-05-17 08:44:22.476883+00:00)
+2025-05-17 10:44:22,511 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 08:59:22 UTC)" executed successfully
+2025-05-17 10:59:22,501 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 09:14:22 UTC)" (scheduled at 2025-05-17 08:59:22.476883+00:00)
+2025-05-17 10:59:22,504 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 09:14:22 UTC)" executed successfully
+2025-05-17 11:14:22,496 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 09:29:22 UTC)" (scheduled at 2025-05-17 09:14:22.476883+00:00)
+2025-05-17 11:14:22,500 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 09:29:22 UTC)" executed successfully
+2025-05-17 11:29:22,524 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 09:44:22 UTC)" (scheduled at 2025-05-17 09:29:22.476883+00:00)
+2025-05-17 11:29:22,526 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 09:44:22 UTC)" executed successfully
+2025-05-17 11:44:22,486 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 09:59:22 UTC)" (scheduled at 2025-05-17 09:44:22.476883+00:00)
+2025-05-17 11:44:22,489 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 09:59:22 UTC)" executed successfully
+2025-05-17 11:59:22,495 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 10:14:22 UTC)" (scheduled at 2025-05-17 09:59:22.476883+00:00)
+2025-05-17 11:59:22,497 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 10:14:22 UTC)" executed successfully
+2025-05-17 12:14:22,488 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 10:29:22 UTC)" (scheduled at 2025-05-17 10:14:22.476883+00:00)
+2025-05-17 12:14:22,495 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 10:29:22 UTC)" executed successfully
+2025-05-17 12:29:22,511 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 10:44:22 UTC)" (scheduled at 2025-05-17 10:29:22.476883+00:00)
+2025-05-17 12:29:22,514 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 10:44:22 UTC)" executed successfully
+2025-05-17 12:44:22,511 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 10:59:22 UTC)" (scheduled at 2025-05-17 10:44:22.476883+00:00)
+2025-05-17 12:44:22,513 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 10:59:22 UTC)" executed successfully
+2025-05-17 12:59:22,497 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 11:14:22 UTC)" (scheduled at 2025-05-17 10:59:22.476883+00:00)
+2025-05-17 12:59:22,500 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 11:14:22 UTC)" executed successfully
+2025-05-17 13:14:22,502 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 11:29:22 UTC)" (scheduled at 2025-05-17 11:14:22.476883+00:00)
+2025-05-17 13:14:22,511 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 11:29:22 UTC)" executed successfully
+2025-05-17 13:29:22,494 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 11:44:22 UTC)" (scheduled at 2025-05-17 11:29:22.476883+00:00)
+2025-05-17 13:29:22,496 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 11:44:22 UTC)" executed successfully
+2025-05-17 13:44:22,505 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 11:59:22 UTC)" (scheduled at 2025-05-17 11:44:22.476883+00:00)
+2025-05-17 13:44:22,507 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 11:59:22 UTC)" executed successfully
+2025-05-17 13:59:22,490 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 12:14:22 UTC)" (scheduled at 2025-05-17 11:59:22.476883+00:00)
+2025-05-17 13:59:22,494 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 12:14:22 UTC)" executed successfully
+2025-05-17 14:14:22,492 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 12:29:22 UTC)" (scheduled at 2025-05-17 12:14:22.476883+00:00)
+2025-05-17 14:14:22,495 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 12:29:22 UTC)" executed successfully
+2025-05-17 14:29:22,492 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 12:44:22 UTC)" (scheduled at 2025-05-17 12:29:22.476883+00:00)
+2025-05-17 14:29:22,494 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 12:44:22 UTC)" executed successfully
+2025-05-17 14:44:22,496 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 12:59:22 UTC)" (scheduled at 2025-05-17 12:44:22.476883+00:00)
+2025-05-17 14:44:22,498 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 12:59:22 UTC)" executed successfully
+2025-05-17 14:59:22,498 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 13:14:22 UTC)" (scheduled at 2025-05-17 12:59:22.476883+00:00)
+2025-05-17 14:59:22,500 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 13:14:22 UTC)" executed successfully
+2025-05-17 15:14:22,487 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 13:29:22 UTC)" (scheduled at 2025-05-17 13:14:22.476883+00:00)
+2025-05-17 15:14:22,495 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 13:29:22 UTC)" executed successfully
+2025-05-17 15:29:22,481 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 13:44:22 UTC)" (scheduled at 2025-05-17 13:29:22.476883+00:00)
+2025-05-17 15:29:22,484 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 13:44:22 UTC)" executed successfully
+2025-05-17 15:44:22,480 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 13:59:22 UTC)" (scheduled at 2025-05-17 13:44:22.476883+00:00)
+2025-05-17 15:44:22,483 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 13:59:22 UTC)" executed successfully
+2025-05-17 15:59:22,484 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 14:14:22 UTC)" (scheduled at 2025-05-17 13:59:22.476883+00:00)
+2025-05-17 15:59:22,487 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 14:14:22 UTC)" executed successfully
+2025-05-17 16:14:22,552 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 14:29:22 UTC)" (scheduled at 2025-05-17 14:14:22.476883+00:00)
+2025-05-17 16:14:22,555 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 14:29:22 UTC)" executed successfully
+2025-05-17 16:29:22,482 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 14:44:22 UTC)" (scheduled at 2025-05-17 14:29:22.476883+00:00)
+2025-05-17 16:29:22,485 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 14:44:22 UTC)" executed successfully
+2025-05-17 16:44:22,491 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 14:59:22 UTC)" (scheduled at 2025-05-17 14:44:22.476883+00:00)
+2025-05-17 16:44:22,493 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 14:59:22 UTC)" executed successfully
+2025-05-17 16:59:22,485 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 15:14:22 UTC)" (scheduled at 2025-05-17 14:59:22.476883+00:00)
+2025-05-17 16:59:22,487 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 15:14:22 UTC)" executed successfully
+2025-05-17 17:14:22,492 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 15:29:22 UTC)" (scheduled at 2025-05-17 15:14:22.476883+00:00)
+2025-05-17 17:14:22,495 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 15:29:22 UTC)" executed successfully
+2025-05-17 17:29:22,520 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 15:44:22 UTC)" (scheduled at 2025-05-17 15:29:22.476883+00:00)
+2025-05-17 17:29:22,523 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 15:44:22 UTC)" executed successfully
+2025-05-17 17:44:22,483 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 15:59:22 UTC)" (scheduled at 2025-05-17 15:44:22.476883+00:00)
+2025-05-17 17:44:22,485 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 15:59:22 UTC)" executed successfully
+2025-05-17 17:59:22,482 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 16:14:22 UTC)" (scheduled at 2025-05-17 15:59:22.476883+00:00)
+2025-05-17 17:59:22,485 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 16:14:22 UTC)" executed successfully
+2025-05-17 18:14:22,482 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 16:29:22 UTC)" (scheduled at 2025-05-17 16:14:22.476883+00:00)
+2025-05-17 18:14:22,484 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 16:29:22 UTC)" executed successfully
+2025-05-17 18:29:22,483 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 16:44:22 UTC)" (scheduled at 2025-05-17 16:29:22.476883+00:00)
+2025-05-17 18:29:22,486 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 16:44:22 UTC)" executed successfully
+2025-05-17 18:44:22,486 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 16:59:22 UTC)" (scheduled at 2025-05-17 16:44:22.476883+00:00)
+2025-05-17 18:44:22,489 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 16:59:22 UTC)" executed successfully
+2025-05-17 18:59:22,489 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 17:14:22 UTC)" (scheduled at 2025-05-17 16:59:22.476883+00:00)
+2025-05-17 18:59:22,490 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 17:14:22 UTC)" executed successfully
+2025-05-17 19:14:22,488 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 17:29:22 UTC)" (scheduled at 2025-05-17 17:14:22.476883+00:00)
+2025-05-17 19:14:22,490 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 17:29:22 UTC)" executed successfully
+2025-05-17 19:29:22,488 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 17:44:22 UTC)" (scheduled at 2025-05-17 17:29:22.476883+00:00)
+2025-05-17 19:29:22,490 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 17:44:22 UTC)" executed successfully
+2025-05-17 19:44:22,541 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 17:59:22 UTC)" (scheduled at 2025-05-17 17:44:22.476883+00:00)
+2025-05-17 19:44:22,543 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 17:59:22 UTC)" executed successfully
+2025-05-17 19:59:22,489 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 18:14:22 UTC)" (scheduled at 2025-05-17 17:59:22.476883+00:00)
+2025-05-17 19:59:22,492 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 18:14:22 UTC)" executed successfully
+2025-05-17 20:14:22,481 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 18:29:22 UTC)" (scheduled at 2025-05-17 18:14:22.476883+00:00)
+2025-05-17 20:14:22,484 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 18:29:22 UTC)" executed successfully
+2025-05-17 20:29:22,580 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 18:44:22 UTC)" (scheduled at 2025-05-17 18:29:22.476883+00:00)
+2025-05-17 20:29:22,582 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 18:44:22 UTC)" executed successfully
+2025-05-17 20:44:22,546 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 18:59:22 UTC)" (scheduled at 2025-05-17 18:44:22.476883+00:00)
+2025-05-17 20:44:22,550 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 18:59:22 UTC)" executed successfully
+2025-05-17 20:59:22,511 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 19:14:22 UTC)" (scheduled at 2025-05-17 18:59:22.476883+00:00)
+2025-05-17 20:59:22,515 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 19:14:22 UTC)" executed successfully
+2025-05-17 21:14:22,505 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 19:29:22 UTC)" (scheduled at 2025-05-17 19:14:22.476883+00:00)
+2025-05-17 21:14:22,508 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 19:29:22 UTC)" executed successfully
+2025-05-17 21:29:22,542 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 19:44:22 UTC)" (scheduled at 2025-05-17 19:29:22.476883+00:00)
+2025-05-17 21:29:22,543 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 19:44:22 UTC)" executed successfully
+2025-05-17 21:44:22,512 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 19:59:22 UTC)" (scheduled at 2025-05-17 19:44:22.476883+00:00)
+2025-05-17 21:44:22,516 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 19:59:22 UTC)" executed successfully
+2025-05-17 21:59:22,491 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 20:14:22 UTC)" (scheduled at 2025-05-17 19:59:22.476883+00:00)
+2025-05-17 21:59:22,494 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 20:14:22 UTC)" executed successfully
+2025-05-17 22:14:22,510 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 20:29:22 UTC)" (scheduled at 2025-05-17 20:14:22.476883+00:00)
+2025-05-17 22:14:22,512 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 20:29:22 UTC)" executed successfully
+2025-05-17 22:29:22,488 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 20:44:22 UTC)" (scheduled at 2025-05-17 20:29:22.476883+00:00)
+2025-05-17 22:29:22,491 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 20:44:22 UTC)" executed successfully
+2025-05-17 22:44:22,481 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 20:59:22 UTC)" (scheduled at 2025-05-17 20:44:22.476883+00:00)
+2025-05-17 22:44:22,486 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 20:59:22 UTC)" executed successfully
+2025-05-17 22:59:22,490 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 21:14:22 UTC)" (scheduled at 2025-05-17 20:59:22.476883+00:00)
+2025-05-17 22:59:22,492 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 21:14:22 UTC)" executed successfully
+2025-05-17 23:14:22,492 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 21:29:22 UTC)" (scheduled at 2025-05-17 21:14:22.476883+00:00)
+2025-05-17 23:14:22,494 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 21:29:22 UTC)" executed successfully
+2025-05-17 23:29:22,513 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 21:44:22 UTC)" (scheduled at 2025-05-17 21:29:22.476883+00:00)
+2025-05-17 23:29:22,516 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 21:44:22 UTC)" executed successfully
+2025-05-17 23:44:22,509 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 21:59:22 UTC)" (scheduled at 2025-05-17 21:44:22.476883+00:00)
+2025-05-17 23:44:22,512 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 21:59:22 UTC)" executed successfully
+2025-05-17 23:59:22,491 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 22:14:22 UTC)" (scheduled at 2025-05-17 21:59:22.476883+00:00)
+2025-05-17 23:59:22,494 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 22:14:22 UTC)" executed successfully
+2025-05-18 00:14:22,503 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 22:29:22 UTC)" (scheduled at 2025-05-17 22:14:22.476883+00:00)
+2025-05-18 00:14:22,506 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 22:29:22 UTC)" executed successfully
+2025-05-18 00:29:22,485 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 22:44:22 UTC)" (scheduled at 2025-05-17 22:29:22.476883+00:00)
+2025-05-18 00:29:22,487 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 22:44:22 UTC)" executed successfully
+2025-05-18 00:44:22,496 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 22:59:22 UTC)" (scheduled at 2025-05-17 22:44:22.476883+00:00)
+2025-05-18 00:44:22,499 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 22:59:22 UTC)" executed successfully
+2025-05-18 00:59:22,495 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 23:14:22 UTC)" (scheduled at 2025-05-17 22:59:22.476883+00:00)
+2025-05-18 00:59:22,498 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 23:14:22 UTC)" executed successfully
+2025-05-18 01:14:22,487 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 23:29:22 UTC)" (scheduled at 2025-05-17 23:14:22.476883+00:00)
+2025-05-18 01:14:22,491 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 23:29:22 UTC)" executed successfully
+2025-05-18 01:29:22,488 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 23:44:22 UTC)" (scheduled at 2025-05-17 23:29:22.476883+00:00)
+2025-05-18 01:29:22,491 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 23:44:22 UTC)" executed successfully
+2025-05-18 01:44:22,480 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 23:59:22 UTC)" (scheduled at 2025-05-17 23:44:22.476883+00:00)
+2025-05-18 01:44:22,483 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-17 23:59:22 UTC)" executed successfully
+2025-05-18 01:59:22,545 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 00:14:22 UTC)" (scheduled at 2025-05-17 23:59:22.476883+00:00)
+2025-05-18 01:59:22,547 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 00:14:22 UTC)" executed successfully
+2025-05-18 02:14:22,527 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 00:29:22 UTC)" (scheduled at 2025-05-18 00:14:22.476883+00:00)
+2025-05-18 02:14:22,530 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 00:29:22 UTC)" executed successfully
+2025-05-18 02:29:22,482 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 00:44:22 UTC)" (scheduled at 2025-05-18 00:29:22.476883+00:00)
+2025-05-18 02:29:22,486 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 00:44:22 UTC)" executed successfully
+2025-05-18 02:44:22,485 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 00:59:22 UTC)" (scheduled at 2025-05-18 00:44:22.476883+00:00)
+2025-05-18 02:44:22,488 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 00:59:22 UTC)" executed successfully
+2025-05-18 02:59:22,487 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 01:14:22 UTC)" (scheduled at 2025-05-18 00:59:22.476883+00:00)
+2025-05-18 02:59:22,489 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 01:14:22 UTC)" executed successfully
+2025-05-18 03:14:22,482 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 01:29:22 UTC)" (scheduled at 2025-05-18 01:14:22.476883+00:00)
+2025-05-18 03:14:22,485 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 01:29:22 UTC)" executed successfully
+2025-05-18 03:29:22,501 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 01:44:22 UTC)" (scheduled at 2025-05-18 01:29:22.476883+00:00)
+2025-05-18 03:29:22,503 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 01:44:22 UTC)" executed successfully
+2025-05-18 03:44:22,497 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 01:59:22 UTC)" (scheduled at 2025-05-18 01:44:22.476883+00:00)
+2025-05-18 03:44:22,499 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 01:59:22 UTC)" executed successfully
+2025-05-18 03:59:22,483 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 02:14:22 UTC)" (scheduled at 2025-05-18 01:59:22.476883+00:00)
+2025-05-18 03:59:22,486 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 02:14:22 UTC)" executed successfully
+2025-05-18 04:00:00,017 | INFO     | Running job "daily_rebalance (trigger: cron[hour='2', minute='0'], next run at: 2025-05-19 02:00:00 UTC)" (scheduled at 2025-05-18 02:00:00+00:00)
+2025-05-18 04:00:00,019 | INFO     | === Daily Rebalance ===
+2025-05-18 04:00:02,583 | INFO     | ML probability = 0.00
+2025-05-18 04:00:02,584 | INFO     | ML red - flatten
+2025-05-18 04:00:02,584 | INFO     | Job "daily_rebalance (trigger: cron[hour='2', minute='0'], next run at: 2025-05-19 02:00:00 UTC)" executed successfully
+2025-05-18 04:14:22,486 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 02:29:22 UTC)" (scheduled at 2025-05-18 02:14:22.476883+00:00)
+2025-05-18 04:14:22,488 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 02:29:22 UTC)" executed successfully
+2025-05-18 04:29:22,485 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 02:44:22 UTC)" (scheduled at 2025-05-18 02:29:22.476883+00:00)
+2025-05-18 04:29:22,488 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 02:44:22 UTC)" executed successfully
+2025-05-18 04:44:22,495 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 02:59:22 UTC)" (scheduled at 2025-05-18 02:44:22.476883+00:00)
+2025-05-18 04:44:22,497 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 02:59:22 UTC)" executed successfully
+2025-05-18 04:59:22,532 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 03:14:22 UTC)" (scheduled at 2025-05-18 02:59:22.476883+00:00)
+2025-05-18 04:59:22,535 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 03:14:22 UTC)" executed successfully
+2025-05-18 05:14:22,498 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 03:29:22 UTC)" (scheduled at 2025-05-18 03:14:22.476883+00:00)
+2025-05-18 05:14:22,501 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 03:29:22 UTC)" executed successfully
+2025-05-18 05:29:22,500 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 03:44:22 UTC)" (scheduled at 2025-05-18 03:29:22.476883+00:00)
+2025-05-18 05:29:22,503 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 03:44:22 UTC)" executed successfully
+2025-05-18 05:44:22,521 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 03:59:22 UTC)" (scheduled at 2025-05-18 03:44:22.476883+00:00)
+2025-05-18 05:44:22,528 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 03:59:22 UTC)" executed successfully
+2025-05-18 05:59:22,492 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 04:14:22 UTC)" (scheduled at 2025-05-18 03:59:22.476883+00:00)
+2025-05-18 05:59:22,495 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 04:14:22 UTC)" executed successfully
+2025-05-18 06:14:22,507 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 04:29:22 UTC)" (scheduled at 2025-05-18 04:14:22.476883+00:00)
+2025-05-18 06:14:22,509 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 04:29:22 UTC)" executed successfully
+2025-05-18 06:29:22,500 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 04:44:22 UTC)" (scheduled at 2025-05-18 04:29:22.476883+00:00)
+2025-05-18 06:29:22,503 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 04:44:22 UTC)" executed successfully
+2025-05-18 06:44:22,481 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 04:59:22 UTC)" (scheduled at 2025-05-18 04:44:22.476883+00:00)
+2025-05-18 06:44:22,483 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 04:59:22 UTC)" executed successfully
+2025-05-18 06:59:22,487 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 05:14:22 UTC)" (scheduled at 2025-05-18 04:59:22.476883+00:00)
+2025-05-18 06:59:22,490 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 05:14:22 UTC)" executed successfully
+2025-05-18 07:14:22,497 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 05:29:22 UTC)" (scheduled at 2025-05-18 05:14:22.476883+00:00)
+2025-05-18 07:14:22,501 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 05:29:22 UTC)" executed successfully
+2025-05-18 07:29:22,534 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 05:44:22 UTC)" (scheduled at 2025-05-18 05:29:22.476883+00:00)
+2025-05-18 07:29:22,539 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 05:44:22 UTC)" executed successfully
+2025-05-18 07:44:22,489 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 05:59:22 UTC)" (scheduled at 2025-05-18 05:44:22.476883+00:00)
+2025-05-18 07:44:22,492 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 05:59:22 UTC)" executed successfully
+2025-05-18 07:59:22,493 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 06:14:22 UTC)" (scheduled at 2025-05-18 05:59:22.476883+00:00)
+2025-05-18 07:59:22,495 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 06:14:22 UTC)" executed successfully
+2025-05-18 08:14:22,494 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 06:29:22 UTC)" (scheduled at 2025-05-18 06:14:22.476883+00:00)
+2025-05-18 08:14:22,497 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 06:29:22 UTC)" executed successfully
+2025-05-18 08:29:22,517 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 06:44:22 UTC)" (scheduled at 2025-05-18 06:29:22.476883+00:00)
+2025-05-18 08:29:22,521 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 06:44:22 UTC)" executed successfully
+2025-05-18 08:44:22,481 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 06:59:22 UTC)" (scheduled at 2025-05-18 06:44:22.476883+00:00)
+2025-05-18 08:44:22,484 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 06:59:22 UTC)" executed successfully
+2025-05-18 08:59:22,496 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 07:14:22 UTC)" (scheduled at 2025-05-18 06:59:22.476883+00:00)
+2025-05-18 08:59:22,499 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 07:14:22 UTC)" executed successfully
+2025-05-18 09:14:22,484 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 07:29:22 UTC)" (scheduled at 2025-05-18 07:14:22.476883+00:00)
+2025-05-18 09:14:22,487 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 07:29:22 UTC)" executed successfully
+2025-05-18 09:29:22,491 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 07:44:22 UTC)" (scheduled at 2025-05-18 07:29:22.476883+00:00)
+2025-05-18 09:29:22,494 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 07:44:22 UTC)" executed successfully
+2025-05-18 09:44:22,485 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 07:59:22 UTC)" (scheduled at 2025-05-18 07:44:22.476883+00:00)
+2025-05-18 09:44:22,488 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 07:59:22 UTC)" executed successfully
+2025-05-18 09:59:22,502 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 08:14:22 UTC)" (scheduled at 2025-05-18 07:59:22.476883+00:00)
+2025-05-18 09:59:22,506 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 08:14:22 UTC)" executed successfully
+2025-05-18 10:14:22,496 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 08:29:22 UTC)" (scheduled at 2025-05-18 08:14:22.476883+00:00)
+2025-05-18 10:14:22,500 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 08:29:22 UTC)" executed successfully
+2025-05-18 10:29:22,518 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 08:44:22 UTC)" (scheduled at 2025-05-18 08:29:22.476883+00:00)
+2025-05-18 10:29:22,521 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 08:44:22 UTC)" executed successfully
+2025-05-18 10:44:22,485 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 08:59:22 UTC)" (scheduled at 2025-05-18 08:44:22.476883+00:00)
+2025-05-18 10:44:22,488 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 08:59:22 UTC)" executed successfully
+2025-05-18 10:59:22,490 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 09:14:22 UTC)" (scheduled at 2025-05-18 08:59:22.476883+00:00)
+2025-05-18 10:59:22,492 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 09:14:22 UTC)" executed successfully
+2025-05-18 11:14:22,497 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 09:29:22 UTC)" (scheduled at 2025-05-18 09:14:22.476883+00:00)
+2025-05-18 11:14:22,502 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 09:29:22 UTC)" executed successfully
+2025-05-18 11:29:22,493 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 09:44:22 UTC)" (scheduled at 2025-05-18 09:29:22.476883+00:00)
+2025-05-18 11:29:22,496 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 09:44:22 UTC)" executed successfully
+2025-05-18 11:44:22,521 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 09:59:22 UTC)" (scheduled at 2025-05-18 09:44:22.476883+00:00)
+2025-05-18 11:44:22,526 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 09:59:22 UTC)" executed successfully
+2025-05-18 11:59:22,504 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 10:14:22 UTC)" (scheduled at 2025-05-18 09:59:22.476883+00:00)
+2025-05-18 11:59:22,506 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 10:14:22 UTC)" executed successfully
+2025-05-18 12:14:22,490 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 10:29:22 UTC)" (scheduled at 2025-05-18 10:14:22.476883+00:00)
+2025-05-18 12:14:22,495 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 10:29:22 UTC)" executed successfully
+2025-05-18 12:29:22,501 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 10:44:22 UTC)" (scheduled at 2025-05-18 10:29:22.476883+00:00)
+2025-05-18 12:29:22,504 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 10:44:22 UTC)" executed successfully
+2025-05-18 12:44:22,512 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 10:59:22 UTC)" (scheduled at 2025-05-18 10:44:22.476883+00:00)
+2025-05-18 12:44:22,520 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 10:59:22 UTC)" executed successfully
+2025-05-18 12:59:22,500 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 11:14:22 UTC)" (scheduled at 2025-05-18 10:59:22.476883+00:00)
+2025-05-18 12:59:22,504 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 11:14:22 UTC)" executed successfully
+2025-05-18 13:14:22,499 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 11:29:22 UTC)" (scheduled at 2025-05-18 11:14:22.476883+00:00)
+2025-05-18 13:14:22,504 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 11:29:22 UTC)" executed successfully
+2025-05-18 13:29:22,487 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 11:44:22 UTC)" (scheduled at 2025-05-18 11:29:22.476883+00:00)
+2025-05-18 13:29:22,491 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 11:44:22 UTC)" executed successfully
+2025-05-18 13:44:22,482 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 11:59:22 UTC)" (scheduled at 2025-05-18 11:44:22.476883+00:00)
+2025-05-18 13:44:22,485 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 11:59:22 UTC)" executed successfully
+2025-05-18 13:59:22,487 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 12:14:22 UTC)" (scheduled at 2025-05-18 11:59:22.476883+00:00)
+2025-05-18 13:59:22,492 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 12:14:22 UTC)" executed successfully
+2025-05-18 14:14:22,489 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 12:29:22 UTC)" (scheduled at 2025-05-18 12:14:22.476883+00:00)
+2025-05-18 14:14:22,492 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 12:29:22 UTC)" executed successfully
+2025-05-18 14:29:22,505 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 12:44:22 UTC)" (scheduled at 2025-05-18 12:29:22.476883+00:00)
+2025-05-18 14:29:22,508 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 12:44:22 UTC)" executed successfully
+2025-05-18 14:44:22,552 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 12:59:22 UTC)" (scheduled at 2025-05-18 12:44:22.476883+00:00)
+2025-05-18 14:44:22,555 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 12:59:22 UTC)" executed successfully
+2025-05-18 14:59:22,497 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 13:14:22 UTC)" (scheduled at 2025-05-18 12:59:22.476883+00:00)
+2025-05-18 14:59:22,500 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 13:14:22 UTC)" executed successfully
+2025-05-18 15:14:22,533 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 13:29:22 UTC)" (scheduled at 2025-05-18 13:14:22.476883+00:00)
+2025-05-18 15:14:22,536 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 13:29:22 UTC)" executed successfully
+2025-05-18 15:29:22,521 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 13:44:22 UTC)" (scheduled at 2025-05-18 13:29:22.476883+00:00)
+2025-05-18 15:29:22,525 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 13:44:22 UTC)" executed successfully
+2025-05-18 15:44:22,510 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 13:59:22 UTC)" (scheduled at 2025-05-18 13:44:22.476883+00:00)
+2025-05-18 15:44:22,516 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 13:59:22 UTC)" executed successfully
+2025-05-18 15:59:22,510 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 14:14:22 UTC)" (scheduled at 2025-05-18 13:59:22.476883+00:00)
+2025-05-18 15:59:22,512 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 14:14:22 UTC)" executed successfully
+2025-05-18 16:14:22,485 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 14:29:22 UTC)" (scheduled at 2025-05-18 14:14:22.476883+00:00)
+2025-05-18 16:14:22,489 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 14:29:22 UTC)" executed successfully
+2025-05-18 16:29:22,489 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 14:44:22 UTC)" (scheduled at 2025-05-18 14:29:22.476883+00:00)
+2025-05-18 16:29:22,492 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 14:44:22 UTC)" executed successfully
+2025-05-18 16:44:22,492 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 14:59:22 UTC)" (scheduled at 2025-05-18 14:44:22.476883+00:00)
+2025-05-18 16:44:22,495 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 14:59:22 UTC)" executed successfully
+2025-05-18 16:59:22,483 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 15:14:22 UTC)" (scheduled at 2025-05-18 14:59:22.476883+00:00)
+2025-05-18 16:59:22,486 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 15:14:22 UTC)" executed successfully
+2025-05-18 17:14:22,501 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 15:29:22 UTC)" (scheduled at 2025-05-18 15:14:22.476883+00:00)
+2025-05-18 17:14:22,506 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 15:29:22 UTC)" executed successfully
+2025-05-18 17:29:22,488 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 15:44:22 UTC)" (scheduled at 2025-05-18 15:29:22.476883+00:00)
+2025-05-18 17:29:22,491 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 15:44:22 UTC)" executed successfully
+2025-05-18 17:44:22,530 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 15:59:22 UTC)" (scheduled at 2025-05-18 15:44:22.476883+00:00)
+2025-05-18 17:44:22,535 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 15:59:22 UTC)" executed successfully
+2025-05-18 17:59:22,502 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 16:14:22 UTC)" (scheduled at 2025-05-18 15:59:22.476883+00:00)
+2025-05-18 17:59:22,506 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 16:14:22 UTC)" executed successfully
+2025-05-18 18:14:22,501 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 16:29:22 UTC)" (scheduled at 2025-05-18 16:14:22.476883+00:00)
+2025-05-18 18:14:22,505 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 16:29:22 UTC)" executed successfully
+2025-05-18 18:29:22,490 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 16:44:22 UTC)" (scheduled at 2025-05-18 16:29:22.476883+00:00)
+2025-05-18 18:29:22,493 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 16:44:22 UTC)" executed successfully
+2025-05-18 18:44:22,526 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 16:59:22 UTC)" (scheduled at 2025-05-18 16:44:22.476883+00:00)
+2025-05-18 18:44:22,530 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 16:59:22 UTC)" executed successfully
+2025-05-18 18:59:22,504 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 17:14:22 UTC)" (scheduled at 2025-05-18 16:59:22.476883+00:00)
+2025-05-18 18:59:22,507 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 17:14:22 UTC)" executed successfully
+2025-05-18 19:14:22,490 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 17:29:22 UTC)" (scheduled at 2025-05-18 17:14:22.476883+00:00)
+2025-05-18 19:14:22,496 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 17:29:22 UTC)" executed successfully
+2025-05-18 19:29:22,484 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 17:44:22 UTC)" (scheduled at 2025-05-18 17:29:22.476883+00:00)
+2025-05-18 19:29:22,487 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 17:44:22 UTC)" executed successfully
+2025-05-18 19:44:22,525 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 17:59:22 UTC)" (scheduled at 2025-05-18 17:44:22.476883+00:00)
+2025-05-18 19:44:22,529 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 17:59:22 UTC)" executed successfully
+2025-05-18 19:59:22,506 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 18:14:22 UTC)" (scheduled at 2025-05-18 17:59:22.476883+00:00)
+2025-05-18 19:59:22,508 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 18:14:22 UTC)" executed successfully
+2025-05-18 20:14:22,486 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 18:29:22 UTC)" (scheduled at 2025-05-18 18:14:22.476883+00:00)
+2025-05-18 20:14:22,490 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 18:29:22 UTC)" executed successfully
+2025-05-18 20:29:22,487 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 18:44:22 UTC)" (scheduled at 2025-05-18 18:29:22.476883+00:00)
+2025-05-18 20:29:22,490 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 18:44:22 UTC)" executed successfully
+2025-05-18 20:44:22,487 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 18:59:22 UTC)" (scheduled at 2025-05-18 18:44:22.476883+00:00)
+2025-05-18 20:44:22,491 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 18:59:22 UTC)" executed successfully
+2025-05-18 20:59:22,540 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 19:14:22 UTC)" (scheduled at 2025-05-18 18:59:22.476883+00:00)
+2025-05-18 20:59:22,543 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 19:14:22 UTC)" executed successfully
+2025-05-18 21:14:22,496 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 19:29:22 UTC)" (scheduled at 2025-05-18 19:14:22.476883+00:00)
+2025-05-18 21:14:22,503 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 19:29:22 UTC)" executed successfully
+2025-05-18 21:29:22,495 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 19:44:22 UTC)" (scheduled at 2025-05-18 19:29:22.476883+00:00)
+2025-05-18 21:29:22,498 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 19:44:22 UTC)" executed successfully
+2025-05-18 21:44:22,522 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 19:59:22 UTC)" (scheduled at 2025-05-18 19:44:22.476883+00:00)
+2025-05-18 21:44:22,527 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 19:59:22 UTC)" executed successfully
+2025-05-18 21:59:22,486 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 20:14:22 UTC)" (scheduled at 2025-05-18 19:59:22.476883+00:00)
+2025-05-18 21:59:22,488 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 20:14:22 UTC)" executed successfully
+2025-05-18 22:14:22,501 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 20:29:22 UTC)" (scheduled at 2025-05-18 20:14:22.476883+00:00)
+2025-05-18 22:14:22,504 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 20:29:22 UTC)" executed successfully
+2025-05-18 22:29:22,488 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 20:44:22 UTC)" (scheduled at 2025-05-18 20:29:22.476883+00:00)
+2025-05-18 22:29:22,491 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 20:44:22 UTC)" executed successfully
+2025-05-18 22:44:22,486 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 20:59:22 UTC)" (scheduled at 2025-05-18 20:44:22.476883+00:00)
+2025-05-18 22:44:22,492 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 20:59:22 UTC)" executed successfully
+2025-05-18 22:59:22,509 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 21:14:22 UTC)" (scheduled at 2025-05-18 20:59:22.476883+00:00)
+2025-05-18 22:59:22,515 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 21:14:22 UTC)" executed successfully
+2025-05-18 23:14:22,495 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 21:29:22 UTC)" (scheduled at 2025-05-18 21:14:22.476883+00:00)
+2025-05-18 23:14:22,498 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 21:29:22 UTC)" executed successfully
+2025-05-18 23:29:22,509 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 21:44:22 UTC)" (scheduled at 2025-05-18 21:29:22.476883+00:00)
+2025-05-18 23:29:22,513 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 21:44:22 UTC)" executed successfully
+2025-05-18 23:44:22,485 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 21:59:22 UTC)" (scheduled at 2025-05-18 21:44:22.476883+00:00)
+2025-05-18 23:44:22,488 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 21:59:22 UTC)" executed successfully
+2025-05-18 23:59:22,495 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 22:14:22 UTC)" (scheduled at 2025-05-18 21:59:22.476883+00:00)
+2025-05-18 23:59:22,499 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 22:14:22 UTC)" executed successfully
+2025-05-19 00:14:22,508 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 22:29:22 UTC)" (scheduled at 2025-05-18 22:14:22.476883+00:00)
+2025-05-19 00:14:22,512 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 22:29:22 UTC)" executed successfully
+2025-05-19 00:29:22,501 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 22:44:22 UTC)" (scheduled at 2025-05-18 22:29:22.476883+00:00)
+2025-05-19 00:29:22,504 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 22:44:22 UTC)" executed successfully
+2025-05-19 00:44:22,500 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 22:59:22 UTC)" (scheduled at 2025-05-18 22:44:22.476883+00:00)
+2025-05-19 00:44:22,504 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 22:59:22 UTC)" executed successfully
+2025-05-19 00:59:22,498 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 23:14:22 UTC)" (scheduled at 2025-05-18 22:59:22.476883+00:00)
+2025-05-19 00:59:22,512 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 23:14:22 UTC)" executed successfully
+2025-05-19 01:14:22,514 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 23:29:22 UTC)" (scheduled at 2025-05-18 23:14:22.476883+00:00)
+2025-05-19 01:14:22,518 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 23:29:22 UTC)" executed successfully
+2025-05-19 01:29:22,512 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 23:44:22 UTC)" (scheduled at 2025-05-18 23:29:22.476883+00:00)
+2025-05-19 01:29:22,515 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 23:44:22 UTC)" executed successfully
+2025-05-19 01:44:22,506 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 23:59:22 UTC)" (scheduled at 2025-05-18 23:44:22.476883+00:00)
+2025-05-19 01:44:22,512 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-18 23:59:22 UTC)" executed successfully
+2025-05-19 01:59:22,491 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 00:14:22 UTC)" (scheduled at 2025-05-18 23:59:22.476883+00:00)
+2025-05-19 01:59:22,494 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 00:14:22 UTC)" executed successfully
+2025-05-19 02:14:22,509 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 00:29:22 UTC)" (scheduled at 2025-05-19 00:14:22.476883+00:00)
+2025-05-19 02:14:22,514 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 00:29:22 UTC)" executed successfully
+2025-05-19 02:29:22,494 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 00:44:22 UTC)" (scheduled at 2025-05-19 00:29:22.476883+00:00)
+2025-05-19 02:29:22,498 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 00:44:22 UTC)" executed successfully
+2025-05-19 02:44:22,485 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 00:59:22 UTC)" (scheduled at 2025-05-19 00:44:22.476883+00:00)
+2025-05-19 02:44:22,488 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 00:59:22 UTC)" executed successfully
+2025-05-19 02:59:22,495 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 01:14:22 UTC)" (scheduled at 2025-05-19 00:59:22.476883+00:00)
+2025-05-19 02:59:22,498 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 01:14:22 UTC)" executed successfully
+2025-05-19 03:14:22,482 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 01:29:22 UTC)" (scheduled at 2025-05-19 01:14:22.476883+00:00)
+2025-05-19 03:14:22,487 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 01:29:22 UTC)" executed successfully
+2025-05-19 03:29:22,517 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 01:44:22 UTC)" (scheduled at 2025-05-19 01:29:22.476883+00:00)
+2025-05-19 03:29:22,521 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 01:44:22 UTC)" executed successfully
+2025-05-19 03:44:22,494 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 01:59:22 UTC)" (scheduled at 2025-05-19 01:44:22.476883+00:00)
+2025-05-19 03:44:22,497 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 01:59:22 UTC)" executed successfully
+2025-05-19 03:59:22,528 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 02:14:22 UTC)" (scheduled at 2025-05-19 01:59:22.476883+00:00)
+2025-05-19 03:59:22,531 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 02:14:22 UTC)" executed successfully
+2025-05-19 04:00:00,015 | INFO     | Running job "daily_rebalance (trigger: cron[hour='2', minute='0'], next run at: 2025-05-20 02:00:00 UTC)" (scheduled at 2025-05-19 02:00:00+00:00)
+2025-05-19 04:00:00,018 | INFO     | === Daily Rebalance ===
+2025-05-19 04:00:03,595 | INFO     | ML probability = 0.00
+2025-05-19 04:00:03,596 | INFO     | ML red - flatten
+2025-05-19 04:00:03,596 | INFO     | Job "daily_rebalance (trigger: cron[hour='2', minute='0'], next run at: 2025-05-20 02:00:00 UTC)" executed successfully
+2025-05-19 04:14:22,515 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 02:29:22 UTC)" (scheduled at 2025-05-19 02:14:22.476883+00:00)
+2025-05-19 04:14:22,519 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 02:29:22 UTC)" executed successfully
+2025-05-19 04:29:22,492 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 02:44:22 UTC)" (scheduled at 2025-05-19 02:29:22.476883+00:00)
+2025-05-19 04:29:22,495 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 02:44:22 UTC)" executed successfully
+2025-05-19 04:44:22,493 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 02:59:22 UTC)" (scheduled at 2025-05-19 02:44:22.476883+00:00)
+2025-05-19 04:44:22,497 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 02:59:22 UTC)" executed successfully
+2025-05-19 04:59:22,521 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 03:14:22 UTC)" (scheduled at 2025-05-19 02:59:22.476883+00:00)
+2025-05-19 04:59:22,524 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 03:14:22 UTC)" executed successfully
+2025-05-19 05:14:22,508 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 03:29:22 UTC)" (scheduled at 2025-05-19 03:14:22.476883+00:00)
+2025-05-19 05:14:22,511 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 03:29:22 UTC)" executed successfully
+2025-05-19 05:29:22,502 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 03:44:22 UTC)" (scheduled at 2025-05-19 03:29:22.476883+00:00)
+2025-05-19 05:29:22,505 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 03:44:22 UTC)" executed successfully
+2025-05-19 05:44:22,505 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 03:59:22 UTC)" (scheduled at 2025-05-19 03:44:22.476883+00:00)
+2025-05-19 05:44:22,509 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 03:59:22 UTC)" executed successfully
+2025-05-19 05:59:22,480 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 04:14:22 UTC)" (scheduled at 2025-05-19 03:59:22.476883+00:00)
+2025-05-19 05:59:22,483 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 04:14:22 UTC)" executed successfully
+2025-05-19 06:14:22,504 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 04:29:22 UTC)" (scheduled at 2025-05-19 04:14:22.476883+00:00)
+2025-05-19 06:14:22,507 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 04:29:22 UTC)" executed successfully
+2025-05-19 06:29:22,495 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 04:44:22 UTC)" (scheduled at 2025-05-19 04:29:22.476883+00:00)
+2025-05-19 06:29:22,497 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 04:44:22 UTC)" executed successfully
+2025-05-19 06:44:22,484 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 04:59:22 UTC)" (scheduled at 2025-05-19 04:44:22.476883+00:00)
+2025-05-19 06:44:22,492 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 04:59:22 UTC)" executed successfully
+2025-05-19 06:59:22,488 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 05:14:22 UTC)" (scheduled at 2025-05-19 04:59:22.476883+00:00)
+2025-05-19 06:59:22,491 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 05:14:22 UTC)" executed successfully
+2025-05-19 07:14:22,486 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 05:29:22 UTC)" (scheduled at 2025-05-19 05:14:22.476883+00:00)
+2025-05-19 07:14:22,491 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 05:29:22 UTC)" executed successfully
+2025-05-19 07:29:22,512 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 05:44:22 UTC)" (scheduled at 2025-05-19 05:29:22.476883+00:00)
+2025-05-19 07:29:22,516 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 05:44:22 UTC)" executed successfully
+2025-05-19 07:44:22,485 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 05:59:22 UTC)" (scheduled at 2025-05-19 05:44:22.476883+00:00)
+2025-05-19 07:44:22,492 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 05:59:22 UTC)" executed successfully
+2025-05-19 07:59:22,487 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 06:14:22 UTC)" (scheduled at 2025-05-19 05:59:22.476883+00:00)
+2025-05-19 07:59:22,489 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 06:14:22 UTC)" executed successfully
+2025-05-19 08:14:22,522 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 06:29:22 UTC)" (scheduled at 2025-05-19 06:14:22.476883+00:00)
+2025-05-19 08:14:22,525 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 06:29:22 UTC)" executed successfully
+2025-05-19 08:29:22,493 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 06:44:22 UTC)" (scheduled at 2025-05-19 06:29:22.476883+00:00)
+2025-05-19 08:29:22,497 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 06:44:22 UTC)" executed successfully
+2025-05-19 08:44:22,497 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 06:59:22 UTC)" (scheduled at 2025-05-19 06:44:22.476883+00:00)
+2025-05-19 08:44:22,500 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 06:59:22 UTC)" executed successfully
+2025-05-19 08:59:22,486 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 07:14:22 UTC)" (scheduled at 2025-05-19 06:59:22.476883+00:00)
+2025-05-19 08:59:22,491 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 07:14:22 UTC)" executed successfully
+2025-05-19 09:14:22,481 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 07:29:22 UTC)" (scheduled at 2025-05-19 07:14:22.476883+00:00)
+2025-05-19 09:14:22,484 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 07:29:22 UTC)" executed successfully
+2025-05-19 09:29:22,493 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 07:44:22 UTC)" (scheduled at 2025-05-19 07:29:22.476883+00:00)
+2025-05-19 09:29:22,496 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 07:44:22 UTC)" executed successfully
+2025-05-19 09:44:22,504 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 07:59:22 UTC)" (scheduled at 2025-05-19 07:44:22.476883+00:00)
+2025-05-19 09:44:22,507 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 07:59:22 UTC)" executed successfully
+2025-05-19 09:59:22,515 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 08:14:22 UTC)" (scheduled at 2025-05-19 07:59:22.476883+00:00)
+2025-05-19 09:59:22,518 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 08:14:22 UTC)" executed successfully
+2025-05-19 10:14:22,499 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 08:29:22 UTC)" (scheduled at 2025-05-19 08:14:22.476883+00:00)
+2025-05-19 10:14:22,502 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 08:29:22 UTC)" executed successfully
+2025-05-19 10:29:22,485 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 08:44:22 UTC)" (scheduled at 2025-05-19 08:29:22.476883+00:00)
+2025-05-19 10:29:22,488 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 08:44:22 UTC)" executed successfully
+2025-05-19 10:44:22,526 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 08:59:22 UTC)" (scheduled at 2025-05-19 08:44:22.476883+00:00)
+2025-05-19 10:44:22,529 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 08:59:22 UTC)" executed successfully
+2025-05-19 10:57:04,100 | INFO     | Starting ML retrain ...
+2025-05-19 10:57:08,480 | INFO     | Model saved - AUC 0.755 (using LightGBM)
+2025-05-19 11:36:27,291 | INFO     | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-19 11:36:27,292 | INFO     | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-19 11:36:27,292 | INFO     | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-19 11:36:27,293 | INFO     | Added job "daily_rebalance" to job store "default"
+2025-05-19 11:36:27,293 | INFO     | Added job "monitor_breakouts" to job store "default"
+2025-05-19 11:36:27,293 | INFO     | Added job "retrain_model" to job store "default"
+2025-05-19 11:36:27,293 | INFO     | Scheduler started
+2025-05-19 11:36:27,293 | INFO     | Scheduler started - bot running
+2025-05-19 11:51:27,305 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 09:51:27 UTC)" (scheduled at 2025-05-19 09:51:27.292529+00:00)
+2025-05-19 11:51:27,311 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 10:06:27 UTC)" executed successfully
+2025-05-19 12:06:27,307 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 10:21:27 UTC)" (scheduled at 2025-05-19 10:06:27.292529+00:00)
+2025-05-19 12:06:27,310 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 10:21:27 UTC)" executed successfully
+2025-05-19 12:21:27,301 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 10:36:27 UTC)" (scheduled at 2025-05-19 10:21:27.292529+00:00)
+2025-05-19 12:21:27,309 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 10:36:27 UTC)" executed successfully
+2025-05-19 12:36:27,315 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 10:51:27 UTC)" (scheduled at 2025-05-19 10:36:27.292529+00:00)
+2025-05-19 12:36:27,320 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 10:51:27 UTC)" executed successfully
+2025-05-19 12:51:27,295 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 11:06:27 UTC)" (scheduled at 2025-05-19 10:51:27.292529+00:00)
+2025-05-19 12:51:27,299 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 11:06:27 UTC)" executed successfully
+2025-05-19 13:06:27,303 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 11:21:27 UTC)" (scheduled at 2025-05-19 11:06:27.292529+00:00)
+2025-05-19 13:06:27,307 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 11:21:27 UTC)" executed successfully
+2025-05-19 13:21:27,297 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 11:36:27 UTC)" (scheduled at 2025-05-19 11:21:27.292529+00:00)
+2025-05-19 13:21:27,303 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 11:36:27 UTC)" executed successfully
+2025-05-19 13:36:27,345 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 11:51:27 UTC)" (scheduled at 2025-05-19 11:36:27.292529+00:00)
+2025-05-19 13:36:27,349 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 11:51:27 UTC)" executed successfully
+2025-05-19 13:51:27,311 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 12:06:27 UTC)" (scheduled at 2025-05-19 11:51:27.292529+00:00)
+2025-05-19 13:51:27,313 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 12:06:27 UTC)" executed successfully
+2025-05-19 14:06:27,310 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 12:21:27 UTC)" (scheduled at 2025-05-19 12:06:27.292529+00:00)
+2025-05-19 14:06:27,330 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 12:21:27 UTC)" executed successfully
+2025-05-19 14:21:27,300 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 12:36:27 UTC)" (scheduled at 2025-05-19 12:21:27.292529+00:00)
+2025-05-19 14:21:27,303 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 12:36:27 UTC)" executed successfully
+2025-05-19 14:36:27,308 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 12:51:27 UTC)" (scheduled at 2025-05-19 12:36:27.292529+00:00)
+2025-05-19 14:36:27,311 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 12:51:27 UTC)" executed successfully
+2025-05-19 14:51:27,306 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 13:06:27 UTC)" (scheduled at 2025-05-19 12:51:27.292529+00:00)
+2025-05-19 14:51:27,309 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 13:06:27 UTC)" executed successfully
+2025-05-19 15:06:27,305 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 13:21:27 UTC)" (scheduled at 2025-05-19 13:06:27.292529+00:00)
+2025-05-19 15:06:27,307 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 13:21:27 UTC)" executed successfully
+2025-05-19 15:21:27,306 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 13:36:27 UTC)" (scheduled at 2025-05-19 13:21:27.292529+00:00)
+2025-05-19 15:21:27,309 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 13:36:27 UTC)" executed successfully
+2025-05-19 15:36:27,353 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 13:51:27 UTC)" (scheduled at 2025-05-19 13:36:27.292529+00:00)
+2025-05-19 15:36:27,375 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 13:51:27 UTC)" executed successfully
+2025-05-19 15:51:27,302 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 14:06:27 UTC)" (scheduled at 2025-05-19 13:51:27.292529+00:00)
+2025-05-19 15:51:27,307 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 14:06:27 UTC)" executed successfully
+2025-05-19 16:06:27,321 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 14:21:27 UTC)" (scheduled at 2025-05-19 14:06:27.292529+00:00)
+2025-05-19 16:06:27,328 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 14:21:27 UTC)" executed successfully
+2025-05-19 16:21:27,352 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 14:36:27 UTC)" (scheduled at 2025-05-19 14:21:27.292529+00:00)
+2025-05-19 16:21:27,356 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 14:36:27 UTC)" executed successfully
+2025-05-19 16:36:27,311 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 14:51:27 UTC)" (scheduled at 2025-05-19 14:36:27.292529+00:00)
+2025-05-19 16:36:27,315 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 14:51:27 UTC)" executed successfully
+2025-05-19 16:51:27,308 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 15:06:27 UTC)" (scheduled at 2025-05-19 14:51:27.292529+00:00)
+2025-05-19 16:51:27,313 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 15:06:27 UTC)" executed successfully
+2025-05-19 17:06:27,310 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 15:21:27 UTC)" (scheduled at 2025-05-19 15:06:27.292529+00:00)
+2025-05-19 17:06:27,314 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 15:21:27 UTC)" executed successfully
+2025-05-19 17:21:27,308 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 15:36:27 UTC)" (scheduled at 2025-05-19 15:21:27.292529+00:00)
+2025-05-19 17:21:27,310 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 15:36:27 UTC)" executed successfully
+2025-05-19 17:36:27,310 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 15:51:27 UTC)" (scheduled at 2025-05-19 15:36:27.292529+00:00)
+2025-05-19 17:36:27,313 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 15:51:27 UTC)" executed successfully
+2025-05-19 17:51:27,311 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 16:06:27 UTC)" (scheduled at 2025-05-19 15:51:27.292529+00:00)
+2025-05-19 17:51:27,315 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 16:06:27 UTC)" executed successfully
+2025-05-19 18:06:27,321 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 16:21:27 UTC)" (scheduled at 2025-05-19 16:06:27.292529+00:00)
+2025-05-19 18:06:27,323 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 16:21:27 UTC)" executed successfully
+2025-05-19 18:21:27,298 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 16:36:27 UTC)" (scheduled at 2025-05-19 16:21:27.292529+00:00)
+2025-05-19 18:21:27,302 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 16:36:27 UTC)" executed successfully
+2025-05-19 18:36:27,306 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 16:51:27 UTC)" (scheduled at 2025-05-19 16:36:27.292529+00:00)
+2025-05-19 18:36:27,309 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 16:51:27 UTC)" executed successfully
+2025-05-19 18:51:27,295 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 17:06:27 UTC)" (scheduled at 2025-05-19 16:51:27.292529+00:00)
+2025-05-19 18:51:27,300 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 17:06:27 UTC)" executed successfully
+2025-05-19 19:06:27,296 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 17:21:27 UTC)" (scheduled at 2025-05-19 17:06:27.292529+00:00)
+2025-05-19 19:06:27,300 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 17:21:27 UTC)" executed successfully
+2025-05-19 19:21:27,300 | INFO     | Running job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 17:36:27 UTC)" (scheduled at 2025-05-19 17:21:27.292529+00:00)
+2025-05-19 19:21:27,311 | INFO     | Job "monitor_breakouts (trigger: interval[0:15:00], next run at: 2025-05-19 17:36:27 UTC)" executed successfully
+2025-05-19 19:32:58,712 | INFO     | Scheduler has been shut down
+2025-05-19 19:32:58,713 | INFO     | Shutting down
